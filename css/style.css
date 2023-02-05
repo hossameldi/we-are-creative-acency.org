@@ -1,0 +1,192 @@
+/* how to write comment */
+
+/* Syntan ازاى تكتب اكواد ال css */
+
+/*
+Rule
+Selector تاجات ال Html {
+خاصية property : vahue قيمة;
+property: value; declaration تعريف
+}
+*/
+
+p {
+    color: green;
+}
+
+span {
+
+}
+
+img {
+
+}
+body {
+
+}
+
+button {
+
+}
+
+/* Background */
+
+body{
+    background-color: white;
+    /* background-color:green; */
+    background-image: url(../images/hossam.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background: white url(../images/hossam.jpg) no-repeat fixed 50px 50px center   
+}
+.one {
+    color: green;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.two {
+    color: white;
+    width: 700px;
+    min-width: 300px;
+    max-width: 500;
+    height: 200px;
+    min-height: 100px;
+    max-height: 500px;
+    background: green;
+}
+button{
+    min-width: 150px;
+}
+
+/* Margin & padding & border & outline */
+.three {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 100px;
+    padding: 20px;
+    border: 2px solid green;
+    border: 2px dotted red;
+    border: 2px dashed blue;
+    border: 2px double white;
+    outline: 2px double white;
+    overflow: auto;
+}
+/* text properties خصائص */
+html {
+    direction: ltr;
+}
+.text {
+    text-align: center;
+    color: red;
+    /* letter-spacing: 10px; */
+    /* word-spacing: 15px; */
+    line-height: 2 ;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+/* font */
+.font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+    /* List */
+ ul {
+    text-align: center;
+    list-style-type: disc;
+    list-style-type: none;
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-image: url();
+    list-style-position: inside;
+ }
+ /* Table */
+ table{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+ } 
+ /* colors */
+ .test {
+    width: 200px;
+    height: 200px;
+    background: red;
+ }
+ /* ID & class */
+ #about {
+    color: red;
+ }
+ /* Display ,none, block, inline, inline-block */
+ /* block
+ 1- بتاخد width 100% اوتومايتيك 
+ 2- شغال معها width and height
+ 3- شغال معها margin and padding*/
+ .test {
+    display: none;
+ }
+p {
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+span {
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+button {
+    background: red;
+    width: 100px;;
+}
+
+/* Visibility رؤية */
+.first {
+    color: #fff;
+    visibility: hidden;
+}
+/* Position */
+ /* .pos {
+    width: 100px;
+    height: 100px;
+    background: #f50;
+    position: relative;
+ } */
+ /* .child {
+    position: absolute;
+    right: 0
+ } */
+ .hero {
+    height: 100px;
+    background: gray;
+ }
+. center {
+    width: 100px;
+    height: 100px;
+    background: black;
+}  
+

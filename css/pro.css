@@ -1,0 +1,63 @@
+/* Navbar */
+.navbar {
+    background: #333;
+}
+
+.navbar h2 {
+    font-size: 22px;
+    color: #fff;
+    width: 20%;
+    float: left;
+}
+
+.navbar > ul {
+    list-style: none;
+    width: 80%;
+    float: left;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar > ul li {
+    display: inline-block;
+    width: 100px;
+}
+
+.navbar > ul li a {
+        color: #e18e8e;
+        text-decoration: none;
+        padding: 8px;
+        display: block;     
+}
+
+.navbar > ul li {
+    position: relative;
+}
+
+.navbar > ul li ul {
+    position: absolute;
+    display: none;
+}
+
+.navbar > ul li a:hover + ul {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Css Form */
+
+form input , form select {
+    display: block;
+    width: 100%;
+}
+
+form input:focus {
+    background: brown;
+}
+
+
+
